@@ -1,6 +1,7 @@
 #include<iostream>
 #include<conio.h>
 #include <stdlib.h>
+using namespace std;
 int main(){
     int h=0,m=0,s=0;
     cout<<"set today date dd/mm/yyyy"<<endl;
@@ -57,7 +58,7 @@ while(k){
      if(mm==12&&d==31){
             y=y+1;
 
-        cout<<endl<<"********************"<<endl<<"Wishing you very Happy new year "<<y<<endl<<"********************"<<endl;
+        cout<<endl<<"********************"<<endl<<"Wishing you very very Happy new year "<<y<<endl<<"********************"<<endl;
 
             d=1;
         mm=1;
